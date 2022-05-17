@@ -1,0 +1,10 @@
+﻿ES2RT linker log file created on miércoles, 17 de marzo de 2021 23:57:33
+
+Linking...
+User Info - Resource Id [ NrOfTags ], caused in [ LinkerVar ]
+User Warning - Resource Id [ AnimationAppearanceWithoutTag ], containing object type [ DYNAMIC_DUMMY_HATCH ]
+User Info - Resource Id [ NumberPowerTags ], caused in [ LinkerLicense ]
+0 errors, 1 warnings - succeeded.
+
+Writing "D:\Raucho\Desktop\Estacion Neumatica\Scada Final\Scada final.Panel de operador_1"...
+Done.

@@ -1,0 +1,118 @@
+
+- V0.0 = Desplazando en sentido antihorario
+- V0.1 = Solicitud de paro
+- V0.2 = Desplazando en sentido horario
+- V0.3 = Paro de automático (Salida)
+- V2.0 = Desplazar uno en sentido antihorario
+- V2.1 = Desplazar uno en sentido horario
+- VW100 = Estado de la estación (no usada en SCADA)
+- VW200 = Posición objetivo
+- VW500 = Contaje de pieza ventosa 1
+- VW510 = Contaje de pieza ventosa 2
+- VW520 = Contaje de pieza ventosa 3
+- VW530 = Contaje de pieza ventosa 4
+- V3.0 = Solicitud Auto/manual (Auto = 0; Manual = 1)	IMPORTANTE: Al solicitar el cambio, solicitar paro
+- V3.1 = Auto/manual (Auto = 0; Manual = 1)
+- V4.0 = Ventosa 1 no coge pieza
+- V4.1 = Ventosa 2 no coge pieza
+- V4.2 = Ventosa 3 no coge pieza
+- V4.3 = Ventosa 4 no coge pieza
+
+
+
+Variables de control interno (para múltiples entradas de control de las salidas)
+- V5.0 = Horizontal 1 (0 = derecha)
+- V5.1 = Horizontal 2 (0 = abajo)
+- V5.2 = Horizontal 3 (0 = izquierda)
+- V5.3 = Horizontal 4 (0 = arriba)
+
+- V5.4 = Vertical 1 (monoestable)
+- V5.5 = Vertical 2 (monoestable)
+- V5.6 = Vertical 3 (monoestable)
+- V5.7 = Vertical 4 (monoestable)
+
+- V6.0 = Cilindro A-B (monoestable, 0 = B)
+- V6.1 = Cilindro C-D (monoestable, 0 = C)
+
+- V7.0 = Ventosa 1 (Set)
+- V7.1 = Ventosa 1 (Reset)
+- V7.2 = Ventosa 2 (Set)
+- V7.3 = Ventosa 2 (Reset)
+- V7.4 = Ventosa 3 (Set)
+- V7.5 = Ventosa 3 (Reset)
+- V7.6 = Ventosa 4 (Set)
+- V7.7 = Ventosa 4 (Reset)
+
+
+Variables de control externo (para múltiples entradas de control de las salidas)
+- V10.0 = Horizontal 1 (monoestable, 0 = derecha)
+- V10.1 = Horizontal 2 (monoestable, 0 = abajo)
+- V10.2 = Horizontal 3 (monoestable, 0 = izquierda)
+- V10.3 = Horizontal 4 (monoestable, 0 = arriba)
+
+- V10.4 = Vertical 1 (monoestable, 0 = arriba)
+- V10.5 = Vertical 2 (monoestable, 0 = arriba)
+- V10.6 = Vertical 3 (monoestable, 0 = arriba)
+- V10.7 = Vertical 4 (monoestable, 0 = arriba)
+
+- V11.0 = Cilindro A-B (monoestable, 0 = B)
+- V11.1 = Cilindro C-D (monoestable, 0 = C)
+
+- V12.0 = Ventosa 1 (Set)
+- V12.1 = Ventosa 1 (Reset)
+
+- V12.2 = Ventosa 2 (Set)
+- V12.3 = Ventosa 2 (Reset)
+
+- V12.4 = Ventosa 3 (Set)
+- V12.5 = Ventosa 3 (Reset)
+
+- V12.6 = Ventosa 4 (Set)
+- V12.7 = Ventosa 4 (Reset)
+
+
+
+Entradas
+- I0.0 = Marcha externo
+- I0.1 = Paro externo (cerrado)
+- I0.2 = Reset externo
+
+- I0.3 = Horizontal 1 derecha
+- I0.4 = Horizontal 1 izquierda
+
+- I0.5 = Horizontal 2 abajo
+- I0.6 = Horizontal 2 arriba
+
+- I0.7 = Horizontal 3 izquierda
+- I1.0 = Horizontal 3 derecha
+
+- I1.1 = Horizontal 4 arriba
+- I1.2 = Horizontal 4 abajo
+
+- I1.3 = Vertical 1 arriba
+- I1.4 = Vertical 1 abajo
+
+- I1.5 = Vertical 2 arriba
+- I2.0 = Vertical 2 abajo
+
+- I2.1 = Vertical 3 arriba
+- I2.2 = Vertical 3 abajo
+
+- I2.3 = Vertical 4 arriba
+- I2.4 = Vertical 4 abajo
+
+- I2.5 = A-B posición B (dentro)
+- I2.6 = A-B posición A (fuera)
+
+- I2.7 = C-D posición C (dentro)
+- I3.0 = C-D posición D (fuera)
+
+
+- I3.1 = Posición 4
+- I3.2 = Posición 3
+- I3.3 = Posición 2
+- I3.4 = Posición 1
+- I3.5 = Posición 8
+- I3.6 = Posición 7
+- I3.7 = Posición 6
+- I4.0 = Posición 5

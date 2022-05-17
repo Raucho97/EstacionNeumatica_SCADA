@@ -1,0 +1,28 @@
+Pneumatic station HMI user manual
+Functions:
+	- Automatic
+	- Manual
+	- Visualization of inputs and outputs
+	- Visualization of the part position
+	- Piece counting with management in Excel
+	- Management of advices and printing of reports
+
+
+Automatic:
+	Simple station control. You can choose a target position or manually move each step of the part.
+
+Manual:
+	Its function is to maintain the station. It allows to operate each movement individually.
+	Important: Wait for the "Ready to use" light to turn green.
+
+Viewing inputs and outputs:
+	Allows you to view the status of the station's inputs and outputs.
+
+Viewing the part position:
+	It allows to visualize the position of the piece in the different positions of rest possible of the same one.
+
+Piece counting with Excel management:
+	Piece counting every time the suction cups detect a piece when it is picked up. The data is represented in an Excel document that allows the management of the same.
+
+Notice management and report printing:
+	Error control (the suction cups do not detect part) and the printing of reports thereof.

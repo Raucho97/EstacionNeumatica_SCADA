@@ -1,0 +1,28 @@
+Manual de uso del HMI de la estación neumatica
+Funciones:
+	- Automático
+	- Manual
+	- Visualización de entradas y salidas
+	- Visualización de la posición de la pieza
+	- Contaje de piezas con gestión en Excel
+	- Gestión de avisos e impresión de informes
+
+
+Automático:
+	Control simple de la estación. Puede elegirse una posición de destino o mover manualmente cada paso de la pieza.
+
+Manual:
+	Su función es para mantenimiento de la estación. Permite operar cada movimiento individualmente.
+	Importante: Esperar a que la luz "Listo para usar" pase a verde.
+
+Visualización de entradas y salidas:
+	Permite visualizar estado de las entradas y salidas de la estación.
+
+Visualización de la posición de la pieza:
+	Permite visualizar la posición de la pieza en las distintas posiciones de reposo posibles de la misma.
+
+Contaje de piezas con gestión en Excel:
+	Contaje de las piezas cada vez que las ventosas detectan una pieza al cogerla. Los datos son representados en un documento de Excel que permite la gestión de los mismos.
+
+Gestión de avisos e impresión de informes:
+	Control de errores (las ventosas no detectan pieza) y la impersión de informes de los mismos.
